@@ -7,6 +7,33 @@
     --accent: #e74c3c;
 }
 
+/* Style pour le bouton de téléchargement du CV */
+.cv-download {
+    margin: 20px 0 10px 0;
+    text-align: left;
+}
+.cv-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: background 0.2s, transform 0.2s;
+}
+.cv-btn i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+.cv-btn:hover, .cv-btn:focus {
+    background-color: #c0392b;
+    color: #fff;
+    transform: translateY(-2px) scale(1.03);
+}
+
 /* Reset et base */
 * {
     margin: 0;
